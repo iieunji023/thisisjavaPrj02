@@ -15,7 +15,7 @@ public class ProductClass {
 		this.quantity = quantity;
 		
 	}
-	
+
 	// 초기화가 잘 이루어졌는지 확인하기 위한 메소드
 	void productInfo() {
 		System.out.printf("id: %d, name: %s, price: %d, quantity: %d \n", id, name, price, quantity);
