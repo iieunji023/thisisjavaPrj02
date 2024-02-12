@@ -84,13 +84,16 @@ public class CustomClass {
 	 * purchase() START
 	 */
 	void purchase() {
+		int sum = 0;
 		for(int i =0; i < shoppingBasket.length; i++) {
 			if(shoppingBasket[i] != null) {
 				System.out.println("==============================================================");
 				System.out.printf("%s님이 %s 상품을 %d개 구매했습니다. \n", this.name, shoppingBasket[i].name, shoppingBasket[i].quantity);
-				
+				sum += shoppingBasket[i].price * shoppingBasket[i].quantity;
 			}
 		}
+		System.out.printf("결제하실 금액은 총 %d입니다.\n", sum);
+		
 	}
 	/*
 	 * purchase() END

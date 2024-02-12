@@ -1,4 +1,4 @@
-package com.eunji.buy;
+package com.eunji.buy.ap;
 
 public class ExecClass {
 	public static void main(String[] args) {
@@ -34,13 +34,12 @@ public class ExecClass {
 		// c3.addToCart(물건, 수량);
 		// System.out.println("p1: " + p1);
 		c1.addToCart(p1, 8);
+		c1.addToCart(p1, 8);
+		c1.addToCart(p1, 8);
+		c1.addToCart(p1, 8);
 		c1.addToCart(p2, 1000);
 		c1.addToCart(p2, 15);
 		c1.addToCart(p2, 15);
-		c1.addToCart(p2, 15);
-		c1.addToCart(p2, 15);
-//		c1.addToCart(p2, 15);
-//		c1.addToCart(p2, 15);
 //		c1.addToCart(p2, 15);
 //		c1.addToCart(p2, 15);
 //		c1.addToCart(p2, 15);
